@@ -109,6 +109,7 @@ class Config(metaclass=Singleton):
         self.DIGITAL_REPORTERS_FILEPATH = None
         self.LATEST_FILING_FEED_FILE = None
         self.LOG_DIR = str(Path.home().joinpath('logs'))
+        self.USER_AGENT = None
 
         for key, value in Config.config_provider.fetch_config():
 

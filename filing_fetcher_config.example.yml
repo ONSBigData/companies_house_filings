@@ -15,4 +15,4 @@ DIGITAL_REPORTERS_FILEPATH: /path/to/file/digital_reporters.csv
 LATEST_FILING_FEED_FILE: /path/to/file/latest_paper_filings.json
 
 # User agent to be used by Scrapy
-USER_AGENT = 'your_user_agent_string (+http://example.com)'
+USER_AGENT: 'your_user_agent_string (+http://example.com)'
